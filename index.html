@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Barlow:400,500,700|Vidaloka" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="base.css" />
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Astral Space Club</title>
+
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- loader  -->
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <!-- landing page  -->
+    <!-- <section class="zoom">
+        <img src="Images/bg.jpg" alt="" id="bg">
+        <img src="Images/moon.png" alt="" id="moon">
+        <img src="Images/mountain.png" alt="" id="mountain">
+        <img src="Images/road.png" alt="" id="road">
+        <h2 id="text">Astral Space Club</h2>
+    </section> -->
+    <main class="landing">
+        <div class="content content--fixed">
+        </div>
+        <div class="content">
+            <canvas class="scene scene--full" id="scene"></canvas>
+            <div class="content__inner">
+                <h2 class="content__title">Astral Space Club</h2>
+                <h3 class="content__subtitle">GEC Thrissur</h2>
+            </div>
+        </div>
+    </main>
+
+
+
+    <div class="panel" data-color="dark">
+        <div class="pic" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+            data-aos-easing="ease-in-out"><img id="about-logo" src="Images/2 ASTRAL.png" alt="">
+        </div>
+        <div class="about-content" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+            <h1>About</h1>
+            <h6>
+                ipsum dolor sit amet consectetur adipisicing elit. Officia, earum neque. Quos magnam maxime
+                suscipit in culpa reprehenderit dolor ex? Deleniti adipisci beatae eos numquam magni, rem soluta
+                odio nostrum?
+            </h6>
+        </div>
+        <div id="starry" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+        </div>
+    </div>
+
+
+    <div class="gap-150p">
+
+    </div>
+
+
+    <div class="panel" data-color="indigo">
+        <div class="mission-vision-container">
+            <div class="mission-vision-header">
+                <!-- <h1 class="ml13">Rising Strong</h1> -->
+                <h1 class="ml5">
+                    <span class="text-wrapper">
+                        <span class="line line1"></span>
+                        <span class="letters letters-left">Mission</span>
+                        <span class="letters ampersand">&amp;</span>
+                        <span class="letters letters-right">Vision</span>
+                        <span class="line line2"></span>
+                    </span>
+                </h1>
+            </div>
+
+            <div class="gap-50p"></div>
+            <div class="mission-container">
+                <div class="mission-content" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <h1>Mission</h1>
+                    <h6>
+                        ipsum dolor sit amet consectetur adipisicing elit. Officia, earum neque. Quos magnam maxime
+                        suscipit in culpa reprehenderit dolor ex? Deleniti adipisci beatae eos numquam magni, rem soluta
+                        odio nostrum?
+                    </h6>
+                </div>
+                <div class="mission-content-pic" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <img src="Images/Mission.png" data-depth='0' width="100%" class="img-1" />
+                </div>
+            </div>
+            <div class="gap-1"></div>
+            <div class="vision-container">
+                <div class="vision-content-pic" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <img src="Images/Vision.png" data-depth='0' width="100%" class="img-1" />
+                </div>
+                <div class="vision-content" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <h1>Vision</h1>
+                    <h6>
+                        ipsum dolor sit amet consectetur adipisicing elit. Officia, earum neque. Quos magnam maxime
+                        suscipit in culpa reprehenderit dolor ex? Deleniti adipisci beatae eos numquam magni, rem soluta
+                        odio nostrum?
+                    </h6>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="starry1" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+        </div>
+    </div>
+
+    <div class="gap-150p"></div>
+    <div class="panel" data-color="dark">
+        <div class="time-machine-container">
+            <div class="time-machine-header">
+                <h1 class="ml13">Ready to travel back in time?</h1>
+            </div>
+            <div class="time-machine" data-aos="fade-right" data-aos-duration="2000">
+                <img src="Images/delorean-38103_640.png" alt="">
+            </div>
+        </div>      
+    </div>
+
+    <div class="panel" data-color="dark">
+        <div class="events-container">
+            <div class="gap-50p"></div>
+            <div class="event">
+                <div class="event-pic" data-aos="zoom-out-up" data-aos-duration="2000">
+                    <img src="Images/undraw_Outer_space_drqu.svg" alt="">
+                </div>
+                <div class="event-content" data-aos="fade-in" data-aos-duration="2000">
+                    <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit 
+                    provident aliquid rem, maxime reprehenderit debitis recusandae
+                    ducimus ipsam, animi vero quia autem voluptatum deleniti ut! Architecto 
+                    repellat error officiis doloremque?</h6>
+                </div>
+            </div>
+            <div class="gap-1"></div>
+            <div class="event-t">
+                <div class="event-content-t" data-aos="fade-in" data-aos-duration="2000">
+                    <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit 
+                    provident aliquid rem, maxime reprehenderit debitis recusandae
+                    ducimus ipsam, animi vero quia autem voluptatum deleniti ut! Architecto 
+                    repellat error officiis doloremque?</h6>
+                </div>
+                <div class="event-pic-t" data-aos="zoom-out-down" data-aos-duration="2000">
+                    <img src="Images/undraw_To_the_stars_qhyy.svg" alt="">
+                </div>
+            </div>
+            <div class="gap-1"></div>
+            <div class="event">
+                <div class="event-pic" data-aos="zoom-out-up" data-aos-duration="2000">
+                    <img src="Images/undraw_maker_launch_crhe.svg" alt="">
+                </div>
+                <div class="event-content" data-aos="fade-in" data-aos-duration="2000">
+                    <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit 
+                    provident aliquid rem, maxime reprehenderit debitis recusandae
+                    ducimus ipsam, animi vero quia autem voluptatum deleniti ut! Architecto 
+                    repellat error officiis doloremque?</h6>
+                </div>
+            </div>
+            <div class="gap-1"></div>
+            <div class="event-t">
+                <div class="event-content-t" data-aos="fade-in" data-aos-duration="2000">
+                    <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit 
+                    provident aliquid rem, maxime reprehenderit debitis recusandae
+                    ducimus ipsam, animi vero quia autem voluptatum deleniti ut! Architecto 
+                    repellat error officiis doloremque?</h6>
+                </div>
+                <div class="event-pic-t" data-aos="zoom-out-down" data-aos-duration="2000">
+                    <img src="Images/undraw_lost_online_wqob.svg" alt="">
+                </div>
+            </div>
+            <div class="gap-50p"></div>
+            <div class="button-container">
+                <h1 class="ml12">Explore more Events</h1>
+                <button class="explore">
+                    <a href="./Events/event.html"> Initiate Hyperdrive</a>  
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="panel" data-color="moonlight">
+        <div data-aos="fade-in" 
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
+            <h1 class="sample">Test-3</h1>
+        </div>
+    </div> -->
+    <script src="Js/jquery.scrollie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"
+        integrity="sha512-/6TZODGjYL7M8qb7P6SflJB/nTGE79ed1RfJk3dfm/Ib6JwCT4+tOfrrseEHhxkIhwG8jCl+io6eaiWLS/UX1w=="
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="text/javascript" src="Js/script.js"></script>
+    <script src="Js/demo.js"></script>
+    <script src="Js/three.min.js"></script>
+    <script src="Js/demo6.js"></script>
+</body>
+
+</html>
