@@ -1,40 +1,4 @@
 let loaderWrapper = document.querySelector('.loader-wrapper');
-// let bg = document.getElementById("bg");
-// let moon = document.getElementById("moon"); 
-// let mountain = document.getElementById("mountain");
-// let road = document.getElementById("road");
-// let text = document.getElementById("text");
-// var xScrollPosition;
-// var yScrollPosition;
-// var scene = document.getElementById('scene');
-// var parallaxInstance = new Parallax(scene);
-
-// function setTranslate(xPos, yPos, el) {
-//     el.style.transform = "translate3d(" + xPos + ", " + yPos + "px, 0)";
-// }   
-
-// function scrollLoop() {
-//     xScrollPosition = window.scrollX;
-//     yScrollPosition = window.scrollY;
-
-//     setTranslate(0,yScrollPosition * 0.7, moon);
-//     setTranslate(0, yScrollPosition * 0.5, bg);
-//     setTranslate(0, yScrollPosition * -0.15, mountain);
-//     setTranslate(0, yScrollPosition * 0.15, road);
-//     setTranslate(0, yScrollPosition * 0.6, text);
-
-//     requestAnimationFrame(scrollLoop);
-// }
-
-// window.addEventListener("DOMContentLoaded", scrollLoop, false);
-
-
-// window.addEventListener('scroll', function() 
-// { 
-//     var value = window.scrollY;
-//     moon.style.left= -value*0.5 + 'px';
-// })
-
 //  loader script
 
 window.addEventListener('load', function () {
