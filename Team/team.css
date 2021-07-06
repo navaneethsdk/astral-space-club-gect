@@ -107,6 +107,9 @@ body {
     left:0;
     padding:40px;
   }
+  .title-execom {
+    font-size: 2em;
+  }
 }
 
 @media ( max-width:767px){
@@ -117,6 +120,9 @@ body {
   .container .card{
     margin:40px 20px;
   }
+  .title-execom {
+    font-size: 2em;
+  }
 }
 
 @media (max-width:420px){
@@ -125,5 +131,8 @@ body {
   }
   .container .card:hover img{
     height:400px ;
+  }
+  .title-execom {
+    font-size: 1.8em;
   }
 }
