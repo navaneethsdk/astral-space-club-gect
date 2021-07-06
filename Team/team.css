@@ -119,9 +119,14 @@ body {
   }
   .container .card{
     margin:40px 20px;
+    min-width: 340px;
+    max-width: 340px;
   }
   .title-execom {
     font-size: 2em;
+  }
+  .gap{
+    display: none;
   }
 }
 
@@ -135,4 +140,5 @@ body {
   .title-execom {
     font-size: 1.8em;
   }
+
 }
